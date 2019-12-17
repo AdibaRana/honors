@@ -1,0 +1,29 @@
+.main-grid {
+	display: grid;
+	background-color: #979C9F;
+	grid-template: 1fr 1fr 1fr 2fr / 1fr 1fr 1fr 2fr;
+	height: 670px;
+}
+
+.a {
+	display: grid;
+	grid-template: 1fr 1fr / 1fr 1fr;
+	grid-gap: 1px;
+	background-color: #FFFFFF;
+}
+
+.b {
+	background-color: #FFFFFF;
+	font-size: 24px;
+	grid-area: 3/ 1 / 4 / span 2;
+}
+
+.c {
+	background-color: #FFFFFF;
+	font-size: 70px;
+	grid-area: 1/ 4/ 4 / 5;
+}
+
+.1a {
+	border: 2px #FF0000 solid;
+}
